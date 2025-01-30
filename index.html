@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATTENTION</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #121212; /* Темный фон */
+            color: #ffffff; /* Белый текст */
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #1e1e1e; /* Чуть светлее, чем фон */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+
+            /* Анимация появления */
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1.5s ease-out forwards;
+        }
+        h1 {
+            color: #ff0000; /* Красный заголовок */
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        /* Ключевая анимация */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ATTENTION</h1>
+        <p>Я - законопослушный гражданин Российской Федерации. Никогда не делал, не делаю и не собираюсь делать что-то, против законов РФ.</p>
+        <p>Ко всем чатам, которые есть на данном аккаунте, я не имею никакого отношения, туда меня добавил СпамБот.</p>
+        <p>Номер, который используется у меня в Телеграмме, не имеет никакого отношения к моему настоящему номеру телефона.</p>
+    </div>
+</body>
+</html>
